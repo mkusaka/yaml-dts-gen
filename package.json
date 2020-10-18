@@ -21,7 +21,7 @@
     "check": "ts-node -T -O '{\"module\": \"commonjs\"}'",
     "build": "rm -rf dist && tsc",
     "prepare": "yarn build",
-    "publish": "git push origin HEAD && git push --tags && npm publish"
+    "prepublish": "git push origin HEAD && git push --tags"
   },
   "files": [
     "bin/gen",
