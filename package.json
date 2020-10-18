@@ -1,6 +1,6 @@
 {
   "name": "yaml-dts-gen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": "https://github.com/mkusaka/yaml-dts-gen.git",
   "author": "mkusaka <hinoshita1992@gmail.com>",
