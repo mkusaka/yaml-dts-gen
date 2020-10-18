@@ -22,5 +22,10 @@
     "build": "rm -rf dist && tsc",
     "prepare": "yarn build",
     "publish": "git push origin HEAD && git push --tags && npm publish"
-  }
+  },
+  "files": [
+    "bin/gen",
+    "dist",
+    "cli.ts"
+  ]
 }
