@@ -20,6 +20,7 @@
   "scripts": {
     "check": "ts-node -T -O '{\"module\": \"commonjs\"}'",
     "build": "rm -rf dist && tsc",
-    "prepare": "build"
+    "prepare": "yarn build",
+    "publish": "git push origin HEAD && git push --tags && npm publish"
   }
 }
