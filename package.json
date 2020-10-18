@@ -27,5 +27,12 @@
     "bin/gen",
     "dist",
     "cli.ts"
+  ],
+  "keywords": [
+    "cli",
+    "type definition",
+    "generator",
+    "yaml",
+    "yml"
   ]
 }
