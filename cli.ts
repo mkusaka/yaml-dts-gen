@@ -13,7 +13,7 @@ function gen(filename: string) {
   console.log(defaultExportedJson);
 
   fs.writeFileSync(
-    process.argv[2].replace(".yml", ".d.ts"),
+    process.argv[2].replace(".yml", ".ts"),
     defaultExportedJson
   );
 }
