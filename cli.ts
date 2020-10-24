@@ -13,7 +13,6 @@ function gen(filename: string) {
 
   const project = new Project({
     compilerOptions: {
-      outDir: "./",
       declaration: true,
       emitDeclarationOnly: true,
     },
