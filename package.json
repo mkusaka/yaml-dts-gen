@@ -10,8 +10,8 @@
     "ts-morph": "^15.1.0"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.9",
-    "@types/node": "^16.18.61",
+    "@types/js-yaml": "4.0.9",
+    "@types/node": "16.18.61",
     "ts-node": "^10.7.0",
     "typescript": "^5.2.2"
   },
