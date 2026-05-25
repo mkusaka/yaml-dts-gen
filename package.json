@@ -6,7 +6,7 @@
   "author": "mkusaka <hinoshita1992@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "ts-morph": "^15.1.0"
   },
   "devDependencies": {
