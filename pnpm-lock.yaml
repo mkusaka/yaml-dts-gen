@@ -22,10 +22,10 @@ importers:
         specifier: ^16.18.61
         version: 16.18.61
       ts-node:
-        specifier: ^10.7.0
+        specifier: 10.7.0
         version: 10.7.0(@types/node@16.18.61)(typescript@5.2.2)
       typescript:
-        specifier: ^5.2.2
+        specifier: 5.2.2
         version: 5.2.2
 
 packages:
