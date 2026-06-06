@@ -22,9 +22,9 @@
     "yaml-dts-gen": "bin/gen"
   },
   "scripts": {
-    "test": "curl https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml -o petstore.yml && yarn build && bin/gen petstore.yml",
+    "test": "curl https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml -o petstore.yml && pnpm run build && bin/gen petstore.yml",
     "build": "rm -rf dist && tsc",
-    "prepublishOnly": "yarn build && git push origin HEAD && git push --tags"
+    "prepublishOnly": "pnpm run build && git push origin HEAD && git push --tags"
   },
   "files": [
     "bin/gen",
@@ -37,5 +37,6 @@
     "generator",
     "yaml",
     "yml"
-  ]
+  ],
+  "packageManager": "pnpm@11.5.2"
 }
