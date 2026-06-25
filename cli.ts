@@ -4,7 +4,7 @@ import { Project } from "ts-morph";
 
 function gen(filename: string) {
   const content = fs.readFileSync(filename, { encoding: "utf-8" });
-  const parsedYaml = yaml.safeLoad(content);
+  const parsedYaml = yaml.load(content);
   const defaultExportedJson = `export default ${JSON.stringify(
     parsedYaml,
     null,
