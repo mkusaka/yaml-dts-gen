@@ -1,5 +1,5 @@
 {
-  minimumReleaseAge: "7days",
+  minimumReleaseAge: "7 days",
   extends: [
     "config:best-practices",
     "group:allNonMajor",
