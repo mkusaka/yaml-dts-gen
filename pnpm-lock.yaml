@@ -16,10 +16,10 @@ importers:
         version: 28.0.0
     devDependencies:
       '@types/js-yaml':
-        specifier: ^4.0.9
+        specifier: 4.0.9
         version: 4.0.9
       '@types/node':
-        specifier: ^24.0.0
+        specifier: 24.13.2
         version: 24.13.2
       ts-node:
         specifier: ^10.7.0
