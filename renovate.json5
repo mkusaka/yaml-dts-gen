@@ -1,4 +1,6 @@
 {
+  automerge: true,
+  platformAutomerge: false,
   minimumReleaseAge: "7 days",
   extends: [
     "config:best-practices",
