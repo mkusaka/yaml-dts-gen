@@ -1,7 +1,10 @@
 packages:
-- "."
+  - "."
 minimumReleaseAge: 10080
 minimumReleaseAgeStrict: true
 strictDepBuilds: true
 trustPolicy: no-downgrade
 blockExoticSubdeps: true
+minimumReleaseAgeExclude:
+  # Renovate security update: js-yaml@4.3.2
+  - js-yaml@4.3.2
