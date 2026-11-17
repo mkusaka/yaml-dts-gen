@@ -1,25 +1,34 @@
 {
   automerge: true,
   platformAutomerge: false,
-  minimumReleaseAge: "7 days",
+  minimumReleaseAge: '7 days',
   extends: [
-    "config:best-practices",
-    "group:allNonMajor",
-    "group:definitelyTyped",
+    'config:best-practices',
+    'group:allNonMajor',
+    'group:definitelyTyped',
   ],
-  rangeStrategy: "bump",
+  rangeStrategy: 'bump',
   prConcurrentLimit: 0,
   prHourlyLimit: 0,
   commitBodyTable: true,
-  dependencyDashboard: true,
-  postUpdateOptions: ["yarnDedupeHighest"],
+  dependencyDashboard: {
+    enabled: true,
+  },
+  postUpdateOptions: [
+    'yarnDedupeHighest',
+  ],
   packageRules: [
     {
-      description: "Keep npm release age in sync with pnpm minimumReleaseAge (security:minimumReleaseAgeNpm sets 3 days)",
-      matchDatasources: ["npm"],
-      matchUpdateTypes: ["major", "minor", "patch"],
-      minimumReleaseAge: "7 days",
+      description: 'Keep npm release age in sync with pnpm minimumReleaseAge (security:minimumReleaseAgeNpm sets 3 days)',
+      matchDatasources: [
+        'npm',
+      ],
+      matchUpdateTypes: [
+        'major',
+        'minor',
+        'patch',
+      ],
+      minimumReleaseAge: '7 days',
     },
   ],
-  // automerge: true,
 }
